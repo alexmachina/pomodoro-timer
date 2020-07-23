@@ -5,9 +5,11 @@
   "author": "Alex Alonso <alex.alonso-ext@viavarejo.com.br>",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "storybook": "start-storybook"
   },
   "dependencies": {
+    "@types/react-dom": "^16.9.8",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "styled-components": "^5.1.1",
@@ -18,10 +20,14 @@
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
+    "@storybook/react": "^5.3.19",
+    "@types/react": "^16.9.43",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.6.0",
     "html-webpack-plugin": "^4.3.0",
     "style-loader": "^1.2.1",
+    "ts-loader": "^8.0.1",
+    "typescript": "^3.9.7",
     "webpack": "^4.43.0",
     "webpack-dev-server": "^3.11.0"
   }
