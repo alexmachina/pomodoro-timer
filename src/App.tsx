@@ -2,7 +2,7 @@ import React from "react";
 import Play from "./Play";
 import "./index.css";
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <div>
       <Play onClick={() => alert("aaaa")} />

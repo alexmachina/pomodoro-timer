@@ -1,6 +1,10 @@
 import React from "react";
 
-const Play = ({ onClick }) => {
+interface PlayPropTypes {
+  onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
+}
+
+const Play: React.FC<PlayPropTypes> = ({ onClick }) => {
   return <button onClick={onClick}>Play</button>;
 };
 
