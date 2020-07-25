@@ -3,11 +3,14 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: "development",
+
   entry: "./src/index.tsx",
+
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "main.js",
   },
+
   module: {
     rules: [
       {
@@ -35,7 +38,9 @@ module.exports = {
       },
     ],
   },
+
   resolve: { extensions: [".js", ".ts", ".tsx"] },
+
   devServer: {
     contentBase: path.join(__dirname, "dist"),
     compress: true,
