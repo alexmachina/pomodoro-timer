@@ -6,11 +6,13 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "test": "jest"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@types/react-dom": "^16.9.8",
+    "eslint-plugin-jest": "^24.0.2",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -25,6 +27,7 @@
     "@babel/preset-typescript": "^7.10.4",
     "@storybook/react": "^5.3.19",
     "@testing-library/react": "^11.0.4",
+    "@types/jest": "^26.0.14",
     "@types/react": "^16.9.43",
     "@types/styled-components": "^5.1.2",
     "@typescript-eslint/eslint-plugin": "^3.7.0",
