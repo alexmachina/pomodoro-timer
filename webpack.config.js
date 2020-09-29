@@ -14,15 +14,11 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js(x)$/,
+        test: /\.ts(x)$/,
         exclude: /(node_modules|bower_components)/,
         use: "babel-loader",
       },
-      {
-        test: /\.ts(x)$/,
-        use: "ts-loader",
-        exclude: /node_modules/,
-      },
+
       {
         test: /\.css$/,
         exclude: /node_modules/,
