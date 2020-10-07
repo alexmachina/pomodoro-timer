@@ -1,11 +1,11 @@
 import React from "react";
-import Play from "./Play";
 import "./index.css";
+import Timer from "./components/Timer";
 
 const App: React.FC = () => {
   return (
     <div>
-      <Play onClick={() => alert("aaaa")} />
+      <Timer />
     </div>
   );
 };

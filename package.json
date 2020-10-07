@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server",
-    "storybook": "start-storybook",
+    "storybook": "start-storybook --port 9009",
     "test": "jest"
   },
   "dependencies": {

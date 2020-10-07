@@ -1,10 +1,10 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import PlayButton from "./index";
+import Button from "./index";
 
-test("PlayButton", () => {
+test("Button", () => {
   const onClick = jest.fn();
-  const { container } = render(<PlayButton onClick={onClick} />);
+  const { container } = render(<Button onClick={onClick}>Play</Button>);
 
   expect(container).toMatchSnapshot();
 });
